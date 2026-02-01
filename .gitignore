@@ -1,0 +1,19 @@
+# Binaries
+bin/
+*.exe
+
+# Dependencies
+node_modules/
+vendor/
+__pycache__/
+venv/
+
+# Environment
+.env
+.env.local
+
+# Build outputs
+dist/
+build/
+*.pth
+*.h5
