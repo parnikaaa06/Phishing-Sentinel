@@ -1,11 +1,14 @@
 1. **ML Service (Python):**
 cd ml-service && python -m venv venv
 venv\Scripts\activate && pip install -r requirements.txt
+python src/main.py
+
 2.  **API (Golang):**
 The dependencies will auto-download on the first run, or you can run:
 ```bash```
 cd api 
 go mod tidy
+
 3.  **Dashboard & Extension (Node.js):**
 ```bash```
     # For the Web Dashboard
