@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Shield, AlertTriangle, CheckCircle, Activity, Globe, Lock, RefreshCw } from 'lucide-react';
+import { AlertTriangle, CheckCircle, Activity, Globe, Lock, RefreshCw } from 'lucide-react';
 
 const App = () => {
   const [stats, setStats] = useState({ scanned: 0, threatsBlocked: 0, trustScore: 100 });
@@ -60,7 +60,8 @@ const App = () => {
       {/* Header */}
       <header className="flex justify-between items-center mb-12">
         <div className="flex items-center gap-3">
-          <Shield className="w-10 h-10 text-cyan-400" />
+          <img src="/assets/logo.png" alt="Phishing Sentinel logo" className="w-10 h-10 object-contain" />
+
           <h1 className="text-3xl font-bold tracking-tight">SENTINEL <span className="text-cyan-400">HUB</span></h1>
         </div>
         <div className="flex gap-4">
