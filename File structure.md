@@ -10,11 +10,14 @@
         ├── go.sum
     └── 📁dashboard
         └── 📁assets
-            ├── logo.png
+            ├── phishingSentinelLogo.png
         └── 📁src
             └── 📁components
             └── 📁hooks
             └── 📁pages
+                └── 📁Dashboard
+                    ├── Dashboard.css
+                    ├── Dashboard.jsx
             ├── App.jsx
             ├── index.css
             ├── main.jsx
@@ -64,10 +67,13 @@
             ├── main.py
             ├── preprocess.py
             ├── train.py
-            ├── .gitignore
-            ├── requirements.txt
+        
+        ├── .gitignore
+        ├── requirements.txt
     ├── .gitignore
     ├── docker-compose.yml
+    ├── File structure.md
     ├── README.md
-    └── setup_sentinel.sh
+    ├── setup_sentinel.sh
+    └── timeline.txt
 ```
