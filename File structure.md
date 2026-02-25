@@ -3,8 +3,12 @@
     └── 📁api
         └── 📁cmd
             ├── main.go
+            ├── types.go
         └── 📁internal
+            ├── db.go
+            ├── model.go
         └── 📁pkg
+        ├── .env
         ├── .env.example
         ├── go.mod
         ├── go.sum
@@ -18,6 +22,10 @@
                 └── 📁Dashboard
                     ├── Dashboard.css
                     ├── Dashboard.jsx
+                └── 📁Login
+                    ├── Login.css
+                    ├── Login.jsx
+                    ├── Register.jsx
             ├── App.jsx
             ├── index.css
             ├── main.jsx
@@ -67,13 +75,11 @@
             ├── main.py
             ├── preprocess.py
             ├── train.py
-        
         ├── .gitignore
         ├── requirements.txt
     ├── .gitignore
     ├── docker-compose.yml
     ├── File structure.md
     ├── README.md
-    ├── setup_sentinel.sh
-    └── timeline.txt
+    └── setup_sentinel.sh
 ```
